@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madagaskar Connections</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="game">
+      <div class="flag" aria-label="Madagaskar Flagge">🇲🇬</div>
+      <h1>MADAGASKAR</h1>
+      <h2>CONNECTIONS</h2>
+
+      <p>Finde vier Begriffe, die zusammengehören.</p>
+
+      <div id="solved-area" aria-live="polite"></div>
+
+      <div class="grid" id="grid" aria-label="Wortgitter"></div>
+
+      <div class="status-row">
+        <div id="lives" class="lives">Fehlversuche übrig: ● ● ● ●</div>
+        <button id="restart" class="secondary" type="button">Neu starten</button>
+      </div>
+
+      <button id="check" class="check" type="button">Prüfen</button>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
