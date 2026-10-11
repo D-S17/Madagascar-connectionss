@@ -80,8 +80,8 @@ function updateLivesDisplay() {
   const remaining = Math.max(4 - mistakes, 0);
   const dots = "● ".repeat(remaining);
   livesDisplay.textContent = remaining > 0
-    ? `Fehlversuche übrig: ${dots}`
-    : "Fehlversuche übrig: 0";
+    ? `Essais restants: ${dots}`
+    : "Essais restants: 0";
 }
 
 function addSolvedRow(group) {
@@ -123,7 +123,7 @@ function checkSelection() {
   if (gameOver) return;
 
   if (selected.length !== 4) {
-    alert("Wähle genau 4 Begriffe aus!");
+    alert("Choisissez exactement 4 mots!");
     return;
   }
 
@@ -148,7 +148,7 @@ function checkSelection() {
     selected = [];
 
     if (solvedGroups === groups.length) {
-      finishGame("🎉 Alle Connections gefunden!");
+      finishGame("🎉 Toutes les Connections trouvées!");
     }
   } else {
     mistakes++;
@@ -158,9 +158,9 @@ function checkSelection() {
     if (mistakes >= 4) {
       revealAllRemainingGroups();
       gridEl.innerHTML = "";
-      finishGame("❌ Keine Fehlversuche mehr");
+      finishGame("❌ Plus d'essais restants");
     } else {
-      alert("Leider falsch ❌");
+      alert("Faux ❌");
     }
   }
 }
