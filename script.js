@@ -11,7 +11,7 @@ let gameOver = false;
 
 const groups = [
   {
-    name: "ANIMAUX DE MADAGASCARS",
+    name: "ANIMAUX DE MADAGASCAR",
     words: ["Lémuriens", "Fosse", "Aye-Aye", "Indri"],
     className: "yellow",
     solved: false
