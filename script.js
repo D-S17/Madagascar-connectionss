@@ -11,25 +11,25 @@ let gameOver = false;
 
 const groups = [
   {
-    name: "TIERE MADAGASKARS",
-    words: ["Lemur", "Fossa", "Aye-Aye", "Indri"],
+    name: "ANIMAUX DE MADAGASCARS",
+    words: ["Lémuriens", "Fosse", "Aye-Aye", "Indri"],
     className: "yellow",
     solved: false
   },
   {
-    name: "HISTORISCHE HERRSCHER",
+    name: "SOUVERAINS HISTORIQUES",
     words: ["Vaohaka Ntaolo", "Diogo Dias", "Adrianampoinimerina", "Ranavalora"],
     className: "green",
     solved: false
   },
   {
-    name: "WÖRTER AUS DEM FRANZÖSISCHEN",
+    name: "MOTS D'ORIGINE FRANÇAIS",
     words: ["Bazar", "Camaron", "Gargote", "Kalalao"],
     className: "blue",
     solved: false
   },
   {
-    name: "ETHNISCHE GRUPPEN",
+    name: "GROUPES ETHNIQUES",
     words: ["Merina", "Betsimisaraka", "Betsileo", "Tsimihety"],
     className: "purple",
     solved: false
